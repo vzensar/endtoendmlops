@@ -10,4 +10,6 @@ flake8
 pytest
 tox
 flask
+numpy
+pandas
 
