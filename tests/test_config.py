@@ -1,5 +1,4 @@
 from app import form_response 
-import mlflow
 import mlflow.spark
 
 class  NotANumber(Exception):
