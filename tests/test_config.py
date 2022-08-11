@@ -1,5 +1,4 @@
-from app import form_response 
-import mlflow.spark
+from app import form_response
 
 class  NotANumber(Exception):
     def __init__(self, message="Values entered are not Numerical"):
@@ -29,4 +28,4 @@ input_data = {
 def test_form_response_incorrect_values(data=input_data["incorrect_values"]):
     res=form_response(data)
     assert res == NotANumber().message
-    #venkatasai
+    
